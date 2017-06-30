@@ -350,93 +350,138 @@ hr {
     background: #eee4da;
     width:100%; 
     height:100%; 
-    background: url("../tiles/youngliving/2.jpg") center center no-repeat;
+    background: url("../tiles/youngliving/2.png") center center no-repeat;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+    @media screen and (max-width: 520px) {
+      .tile.tile-2 .tile-inner {
+        width:100%; 
+    height:100%; 
+    background: url("../tiles/youngliving/2x.png") center center no-repeat; } }
   .tile.tile-4 .tile-inner {
     background: #ede0c8;
     width:100%; 
     height:100%; 
-    background: url("../tiles/youngliving/4.jpg") center center no-repeat;
+    background: url("../tiles/youngliving/4.png") center center no-repeat;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+    @media screen and (max-width: 520px) {
+      .tile.tile-4 .tile-inner {
+        width:100%; 
+    height:100%; 
+    background: url("../tiles/youngliving/4x.png") center center no-repeat; } }
   .tile.tile-8 .tile-inner {
     color: #f9f6f2;  
     background: #f2b179;
     width:100%; 
     height:100%; 
-    background: url("../tiles/youngliving/8.jpg") center center no-repeat; }
+    background: url("../tiles/youngliving/8.png") center center no-repeat; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-8 .tile-inner {
+        width:100%; 
+    height:100%; 
+    background: url("../tiles/youngliving/8x.png") center center no-repeat; } }
   .tile.tile-16 .tile-inner {
     color: #f9f6f2;
     background: #f59563;
     width:100%; 
     height:100%; 
-    background: url("../tiles/youngliving/16.jpg") center center no-repeat; }
+    background: url("../tiles/youngliving/16.png") center center no-repeat; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-16 .tile-inner {
+        width:100%; 
+    height:100%; 
+    background: url("../tiles/youngliving/16x.png") center center no-repeat; } }
   .tile.tile-32 .tile-inner {
     color: #f9f6f2;
     background: #f67c5f;
     width:100%; 
     height:100%; 
-    background: url("../tiles/youngliving/32.jpg") center center no-repeat; }
+    background: url("../tiles/youngliving/32.png") center center no-repeat; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-32 .tile-inner {
+        width:100%; 
+    height:100%; 
+    background: url("../tiles/youngliving/32x.png") center center no-repeat; } }
   .tile.tile-64 .tile-inner {
     color: #f9f6f2;
     background: #f65e3b;
     width:100%; 
     height:100%; 
-    background: url("../tiles/youngliving/64.jpg") center center no-repeat; }
+    background: url("../tiles/youngliving/64.png") center center no-repeat; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-64 .tile-inner {
+        width:100%; 
+    height:100%; 
+    background: url("../tiles/youngliving/64x.png") center center no-repeat; } }
   .tile.tile-128 .tile-inner {
     color: #f9f6f2;
     background: #edcf72;
     width:100%; 
     height:100%; 
-    background: url("../tiles/youngliving/128.jpg") center center no-repeat;
+    background: url("../tiles/youngliving/128.png") center center no-repeat;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
-        font-size: 0px; } }
+        font-size: 0px;
+        width:100%; 
+    height:100%; 
+    background: url("../tiles/youngliving/128x.png") center center no-repeat; } }
   .tile.tile-256 .tile-inner {
     color: #f9f6f2;
     background: #edcc61;
     width:100%; 
     height:100%; 
-    background: url("../tiles/youngliving/256.jpg") center center no-repeat;
+    background: url("../tiles/youngliving/256.png") center center no-repeat;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
-        font-size: 0px; } }
+        font-size: 0px;
+        width:100%; 
+    height:100%; 
+    background: url("../tiles/youngliving/256x.png") center center no-repeat; } }
   .tile.tile-512 .tile-inner {
     color: #f9f6f2;
     background: #edc850;
     width:100%; 
     height:100%; 
-    background: url("../tiles/youngliving/512.jpg") center center no-repeat;
+    background: url("../tiles/youngliving/512.png") center center no-repeat;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
-        font-size: 0px; } }
+        font-size: 0px;
+        width:100%; 
+    height:100%; 
+    background: url("../tiles/youngliving/512x.png") center center no-repeat; } }
   .tile.tile-1024 .tile-inner {
     color: #f9f6f2;
     background: #edc53f;
     width:100%; 
     height:100%; 
-    background: url("../tiles/youngliving/1024.jpg") center center no-repeat;
+    background: url("../tiles/youngliving/1024.png") center center no-repeat;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
-        font-size: 0px; } }
+        font-size: 0px;
+        width:100%; 
+    height:100%; 
+    background: url("../tiles/youngliving/1024x.png") center center no-repeat; } }
   .tile.tile-2048 .tile-inner {
     color: #f9f6f2;
     background: #edc22e;
      width:100%; 
     height:100%; 
-    background: url("../tiles/youngliving/2048.jpg") center center no-repeat;
+    background: url("../tiles/youngliving/2048.png") center center no-repeat;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
-        font-size: 0px; } }
+        font-size: 0px;
+        width:100%; 
+    height:100%; 
+    background: url("../tiles/youngliving/2048x.png") center center no-repeat; } }
   .tile.tile-super .tile-inner {
     color: #f9f6f2;
     background: #3c3a32;
