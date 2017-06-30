@@ -2,21 +2,25 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #faf8ef;
-  color: #776e65;
+  background: #c6edc6;
+  color: #6b9a6b;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
 body {
   margin: 80px 0; }
 
+.logo {
+  width: 100%;
+  height: auto;
+}
 .heading:after {
   content: "";
   display: block;
   clear: both; }
 
 h1.title {
-  font-size: 80px;
+  font-size: 50px;
   font-weight: bold;
   margin: 0;
   display: block;
@@ -53,7 +57,7 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #bbada0;
+  background: #6b9a6b;
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
@@ -100,8 +104,12 @@ p {
   margin-bottom: 10px;
   line-height: 1.65; }
 
+span {
+  color: #498349;
+}
+ 
 a {
-  color: #776e65;
+  color: #498349;
   font-weight: bold;
   text-decoration: underline;
   cursor: pointer; }
@@ -111,7 +119,7 @@ strong.important {
 
 hr {
   border: none;
-  border-bottom: 1px solid #d8d4d0;
+  border-bottom: 1px solid #498349;
   margin-top: 20px;
   margin-bottom: 30px; }
 
@@ -149,10 +157,12 @@ hr {
   -ms-user-select: none;
   -ms-touch-action: none;
   touch-action: none;
-  background: #bbada0;
   border-radius: 6px;
   width: 500px;
   height: 500px;
+  width: 100%;
+  height: 500px;
+  background: url("../images/youngliving/background.png") center center no-repeat;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
@@ -204,7 +214,7 @@ hr {
 .grid-container {
   position: absolute;
   z-index: 1; }
-
+ 
 .grid-row {
   margin-bottom: 15px; }
   .grid-row:last-child {
@@ -323,76 +333,119 @@ hr {
   transition-property: transform; }
   .tile .tile-inner {
     border-radius: 3px;
-    background: #eee4da;
+    background: #000000;
     text-align: center;
     font-weight: bold;
     z-index: 10;
-    font-size: 55px; }
+    font-size: 0px; }
+    @media screen and (max-width: 520px) {
+      .tile .tile-inner {
+        border-radius: 3px;
+    background: #000000;
+    text-align: center;
+    font-weight: bold;
+    z-index: 10;
+    font-size: 0px; } }
   .tile.tile-2 .tile-inner {
     background: #eee4da;
+    width:100%; 
+    height:100%; 
+    background: url("../tiles/youngliving/2.jpg") center center no-repeat;
+    width: auto;
+    height: auto;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
     background: #ede0c8;
+    width:100%; 
+    height:100%; 
+    background: url("../tiles/youngliving/4.jpg") center center no-repeat;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
-    color: #f9f6f2;
-    background: #f2b179; }
+    color: #f9f6f2;  
+    background: #f2b179;
+    width:100%; 
+    height:100%; 
+    background: url("../tiles/youngliving/8.jpg") center center no-repeat; }
   .tile.tile-16 .tile-inner {
     color: #f9f6f2;
-    background: #f59563; }
+    background: #f59563;
+    width:100%; 
+    height:100%; 
+    background: url("../tiles/youngliving/16.jpg") center center no-repeat; }
   .tile.tile-32 .tile-inner {
     color: #f9f6f2;
-    background: #f67c5f; }
+    background: #f67c5f;
+    width:100%; 
+    height:100%; 
+    background: url("../tiles/youngliving/32.jpg") center center no-repeat; }
   .tile.tile-64 .tile-inner {
     color: #f9f6f2;
-    background: #f65e3b; }
+    background: #f65e3b;
+    width:100%; 
+    height:100%; 
+    background: url("../tiles/youngliving/64.jpg") center center no-repeat; }
   .tile.tile-128 .tile-inner {
     color: #f9f6f2;
     background: #edcf72;
+    width:100%; 
+    height:100%; 
+    background: url("../tiles/youngliving/128.jpg") center center no-repeat;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
-        font-size: 25px; } }
+        font-size: 0px; } }
   .tile.tile-256 .tile-inner {
     color: #f9f6f2;
     background: #edcc61;
+    width:100%; 
+    height:100%; 
+    background: url("../tiles/youngliving/256.jpg") center center no-repeat;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
-        font-size: 25px; } }
+        font-size: 0px; } }
   .tile.tile-512 .tile-inner {
     color: #f9f6f2;
     background: #edc850;
+    width:100%; 
+    height:100%; 
+    background: url("../tiles/youngliving/512.jpg") center center no-repeat;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
-        font-size: 25px; } }
+        font-size: 0px; } }
   .tile.tile-1024 .tile-inner {
     color: #f9f6f2;
     background: #edc53f;
+    width:100%; 
+    height:100%; 
+    background: url("../tiles/youngliving/1024.jpg") center center no-repeat;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
-        font-size: 15px; } }
+        font-size: 0px; } }
   .tile.tile-2048 .tile-inner {
     color: #f9f6f2;
     background: #edc22e;
+     width:100%; 
+    height:100%; 
+    background: url("../tiles/youngliving/2048.jpg") center center no-repeat;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
-        font-size: 15px; } }
+        font-size: 0px; } }
   .tile.tile-super .tile-inner {
     color: #f9f6f2;
     background: #3c3a32;
     font-size: 30px; }
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
-        font-size: 10px; } }
+        font-size: 0px; } }
 
 @-webkit-keyframes appear {
   0% {
@@ -519,7 +572,7 @@ hr {
 
 .restart-button {
   display: inline-block;
-  background: #8f7a66;
+  background: #498349;
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
@@ -542,7 +595,7 @@ hr {
     padding: 0 20px; }
 
   h1.title {
-    font-size: 27px;
+    font-size: 23px;
     margin-top: 15px; }
 
   .container {
@@ -584,8 +637,9 @@ hr {
     touch-action: none;
     background: #bbada0;
     border-radius: 6px;
-    width: 280px;
+    width: 100%;
     height: 280px;
+  background: url("../images/youngliving/background280.png") center center no-repeat;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box; }
@@ -747,7 +801,7 @@ hr {
     transform: translate(202px, 202px); }
 
   .tile .tile-inner {
-    font-size: 35px; }
+    font-size: 0px; }
 
   .game-message p {
     font-size: 30px !important;
