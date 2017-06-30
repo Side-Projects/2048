@@ -3,7 +3,7 @@ html, body {
   margin: 0;
   padding: 0;
   background: #c6edc6;
-  color: #6b9a6b;
+  color: #1a4c06;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
@@ -105,11 +105,11 @@ p {
   line-height: 1.65; }
 
 span {
-  color: #498349;
+  color: #061102;
 }
  
 a {
-  color: #498349;
+  color: #1b3f0c;
   font-weight: bold;
   text-decoration: underline;
   cursor: pointer; }
@@ -119,7 +119,7 @@ strong.important {
 
 hr {
   border: none;
-  border-bottom: 1px solid #498349;
+  border-bottom: 1px solid #1b3f0c;
   margin-top: 20px;
   margin-bottom: 30px; }
 
@@ -479,16 +479,22 @@ hr {
       .tile.tile-2048 .tile-inner {
         font-size: 0px;
         width:100%; 
-    height:100%; 
-    background: url("../tiles/youngliving/2048x.png") center center no-repeat; } }
+        height:100%; 
+        background: url("../tiles/youngliving/2048x.png") center center no-repeat; } }
   .tile.tile-super .tile-inner {
     color: #f9f6f2;
     background: #3c3a32;
-    font-size: 0px; }
+    font-size: 0px;
+    width:100%; 
+        height:100%; 
+        background: url("../tiles/youngliving/super.png") center center no-repeat;
+     }
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
-        font-size: 0px; } }
-
+        font-size: 0px;
+        width:100%; 
+        height:100%; 
+        background: url("../tiles/youngliving/superx.png") center center no-repeat; }
 @-webkit-keyframes appear {
   0% {
     opacity: 0;
@@ -706,7 +712,8 @@ hr {
         font-weight: bold;
         height: 60px;
         line-height: 60px;
-        margin-top: 222px; }
+        margin-top: 222px;
+        color: #1a4c06; }
       .game-container .game-message .lower {
         display: block;
         margin-top: 59px; }
@@ -852,3 +859,4 @@ hr {
     margin-top: 90px !important; }
   .game-message .lower {
     margin-top: 30px !important; } }
+ 
